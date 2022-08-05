@@ -45,7 +45,7 @@ public class Main {
 
         //Задачв 4
         for(int i: first) {
-           if(i % 2 == 0) ++i;
+           if(i % 2 != 0) ++i;
             System.out.println(i);
         }
 
